@@ -12,9 +12,15 @@ This configuration repository goes along with my tutorial on how to setup NeoVim
 ## How use diffrent Nvim config
 
 ### 1. Clone the repo in your .config 
+Official config 
 ```bash
 git clone https://github.com/unknownkoder/Java-FullStack-NeoVim-Configuration.git ~/.config/java-nvim-config
 ```
+My config : 
+```bash
+git clone https://github.com/Merlinssearch/Java-NeoVim.git ~/.config/java-nvim-config
+```
+
 ### 2. Go into your bashrc zshrc or whatever add this line :
 
 alias jnvim='NVIM_APPNAME=java-nvim-config nvim'

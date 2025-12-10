@@ -8,6 +8,22 @@ Of course this is just a starting point for you to configure, and just the tip o
 
 This configuration repository goes along with my tutorial on how to setup NeoVim for Java Developers, which you can find [here](https://youtu.be/zbpF3te0M3g) to follow along and get explanations of the different plugins we are configuring.
 
+
+## How use diffrent Nvim config
+
+## Vorgehen
+
+### 1. Repository in die Neovim-Config-Struktur klonen
+```bash
+git clone https://github.com/unknownkoder/Java-FullStack-NeoVim-Configuration.git ~/.config/java-nvim-config
+
+go into your bashrc zshrc or whatever add this line :
+
+```bash
+alias jnvim='NVIM_APPNAME=java-nvim-config nvim'
+
+NVIM_APPNAME always looks in .config 
+
 ## Plugins
 
 I attempted to keep the plugins in this configuration to a minimum to reduce the bulk, but also to just build a strong foundation to build on top of. I did not want to include a ton of plugins that people might or might not immediately uninstall because they felt they didn't need them.

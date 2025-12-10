@@ -15,13 +15,13 @@ This configuration repository goes along with my tutorial on how to setup NeoVim
 ```bash
 git clone https://github.com/unknownkoder/Java-FullStack-NeoVim-Configuration.git ~/.config/java-nvim-config
 ```
-### 2. go into your bashrc zshrc or whatever add this line :
+### 2. Go into your bashrc zshrc or whatever add this line :
 
 alias jnvim='NVIM_APPNAME=java-nvim-config nvim'
 
 NVIM_APPNAME always looks in .config 
 
-### 3. then start with : 
+### 3. Then start with : 
 
 ```bash
 jnvim

@@ -22,11 +22,13 @@ git clone https://github.com/Merlinssearch/Java-NeoVim.git ~/.config/Java-NeoVim
 ```
 
 ### 2. Go into your bashrc zshrc or whatever add this line :
-
+```bash
 alias jnvim='NVIM_APPNAME=java-nvim-config nvim'
+```
 or 
+```bash
 alias jnvim='NVIM_APPNAME=Java-NeoVim nvim'
-
+```
 NVIM_APPNAME always looks in .config 
 
 ### 3. Then start with : 

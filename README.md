@@ -11,18 +11,21 @@ This configuration repository goes along with my tutorial on how to setup NeoVim
 
 ## How use diffrent Nvim config
 
-## Vorgehen
-
 ### 1. Repository in die Neovim-Config-Struktur klonen
 ```bash
 git clone https://github.com/unknownkoder/Java-FullStack-NeoVim-Configuration.git ~/.config/java-nvim-config
+```
 
 go into your bashrc zshrc or whatever add this line :
 
-```bash
 alias jnvim='NVIM_APPNAME=java-nvim-config nvim'
 
 NVIM_APPNAME always looks in .config 
+
+then start with : 
+```bash
+jnvim
+```
 
 ## Plugins
 
